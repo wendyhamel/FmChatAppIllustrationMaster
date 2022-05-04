@@ -24,12 +24,12 @@
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
 </head>
-<body class="antialiased relative bg-violet-light-gray overflow-x-hidden">
-<div class="absolute w-[500px] h-[600px] -top-[100px] right-1/2 rounded-b-full bg-gradient-to-b from-magenta-light to-violet-light"></div>
-<div class="absolute w-[500px] h-[600px] bottom-0 left-1/2 rounded-t-full bg-violet-pale/5"></div>
-<main class="relative grid md:grid-cols-2 gap-14 pt-1">
-  <div class="relative bg-white rounded-3xl p-2.5 w-60 mx-auto mt-14 shadow-2xl">
-    <div class="absolute top-0 bg-white inset-x-1/4 w-32 h-7 rounded-full"></div>
+<body class="antialiased min-h-screen relative bg-violet-light-gray overflow-x-hidden">
+<div class="absolute w-[500px] h-[700px] -top-[200px] right-1/2 rounded-b-full bg-gradient-to-b from-magenta-light to-violet-light lg:right-auto lg:-left-[70px] lg:top-0"></div>
+<div class="absolute w-[500px] h-[500px] bottom-0 left-1/2 rounded-t-full bg-violet-pale/5 lg:-right-[180px] lg:left-auto lg:h-[700px]"></div>
+<main class="relative grid gap-14 pt-1 lg:grid-cols-2 lg:max-w-4xl lg:mx-auto lg:gap-3">
+  <div class="relative bg-white rounded-3xl p-2.5 w-60 mx-auto mt-14 shadow-2xl lg:mt-32">
+    <div class="absolute top-0 bg-white inset-x-1/4 w-32 h-7 rounded-b-2xl"></div>
     <div class="flex text-white justify-between items-center gap-2 pt-6 px-3 pb-3 rounded-t-2xl bg-gradient-to-r from-violet-light to-magenta-light">
       <div class="flex items-center gap-2 pl-1 shrink-0">
         <span class="text-lg leading-none">&#139;</span>
@@ -105,11 +105,11 @@
     </div>
   </div>
 
-  <div class="relative flex flex-col items-center gap-4">
-    <h1 class="px-3 text-violet-dark-des font-medium text-[2.5rem]">
+  <div class="relative flex flex-col items-center gap-4 lg:justify-center lg:items-start">
+    <h1 class="px-3 text-violet-dark-des font-medium text-[2.5rem] lg:px-0">
       Simple booking
     </h1>
-    <p class="px-6 pt-px text-violet-dark-gray text-md text-center leading-[1.7rem]">
+    <p class="px-6 pt-px text-violet-dark-gray text-md text-center leading-[1.7rem] max-w-prose lg:px-0 lg:text-left">
       Stay in touch with our dog walkers through the chat interface. This makes it easy to
       discuss arrangements and make bookings. Once the walk has been completed you can rate
       your walker and book again all through the chat.
@@ -117,7 +117,7 @@
   </div>
 
 </main>
-<footer class="relative mx-auto mt-8 px-2 pb-4">
+<footer class="relative mx-auto mt-8 px-2 pb-4 lg:mt-24">
   <div class="text-xs text-violet-dark-gray text-center">
     Challenge by <a class="text-violet-dark hover:underline hover:text-violet-dark-des transform ease-in-out duration-150" href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY" target="_blank">Frontend Mentor</a>.
     Challenge by <a class="text-violet-dark hover:underline hover:text-violet-dark-des transform ease-in-out duration-150" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
